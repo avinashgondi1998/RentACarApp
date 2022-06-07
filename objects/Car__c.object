@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Car_Type__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Car Type</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Car Type</inlineHelpText>
+        <label>Car Type</label>
+        <referenceTo>Car_Type__c</referenceTo>
+        <relationshipLabel>Car</relationshipLabel>
+        <relationshipName>Car</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>
